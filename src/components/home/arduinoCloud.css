@@ -1,0 +1,7 @@
+.arduino-class {
+    display: flex;
+    background-image: url('https://www.arduino.cc/static/media/cloud_banner_bkg.b51e8f10.svg');
+    padding-top: 55%;
+    background-size: cover;
+    align-items: center;
+}

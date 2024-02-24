@@ -1,0 +1,6 @@
+.left-side-container {
+    display: flex;
+    width: 33%;
+    /* background-color: rgba(128, 128, 128, 0.516); */
+    flex-direction: column;
+}

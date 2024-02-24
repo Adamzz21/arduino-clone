@@ -1,0 +1,54 @@
+.home-page-parent {
+    display: flex;
+    justify-content: center;
+
+}
+
+.home-page-wrapper {
+    display: flex;
+    width: 1200px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.post-content {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-content {
+    width: 100%;
+    height: 430px;
+    background-color: #ecf1f1;
+
+}
+
+.blog-content:hover,
+.blog-content:hover #title {
+    background-color: #00979d;
+    color: white;
+}
+
+.blog-content h2 {
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    color: #00979d;
+    padding: 10px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.blog-content img {
+    max-width: 100% !important;
+}
+
+.post-blog-click {
+    cursor: pointer;
+}
+
+.blog-content:hover,
+.post-content :hover {
+    -webkit-filter: brightness(85%);
+    /* transition: 0.2s; */
+}
