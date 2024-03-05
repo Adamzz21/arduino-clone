@@ -7,9 +7,11 @@ export default function LinkButtons({ className, text, icon }) {
                 <span>
                     {text}
                 </span>
-                <span>
-                    {icon}
-                </span>
+                <div className='icon-background'>
+                    <span>
+                        {icon}
+                    </span>
+                </div>
             </a>
         </div>
     )

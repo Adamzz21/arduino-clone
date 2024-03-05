@@ -48,7 +48,7 @@ export default function Footer() {
             </h4>
           </div>
           <div className='wrapper'>
-            <input type="email" name="email" id="email" placeholder='Enter your enail to sign up' />
+            <input type="email" name="email" id="email" placeholder='Enter your email to sign up' />
             <button type='submit' >subscribe</button>
           </div>
 

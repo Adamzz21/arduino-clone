@@ -10,6 +10,7 @@ import BlogPage from './pages/BlogPage';
 import AboutPage from './pages/AboutPage';
 import Navbar from './components/layout/NavBar';
 import Footer from './components/layout/Footer';
+import SoftwarePage from './pages/SoftwarePage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<HomePage />} />
+        <Route path='software' element={< SoftwarePage />} />
         <Route path='hardware' element={<HardwarePage />} />
         <Route path="cloud" element={<CloudPage />} />
         <Route path='documentation' element={<DocumentationPage />} />

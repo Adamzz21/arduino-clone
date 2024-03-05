@@ -9,6 +9,9 @@ import CloudIcon from '@mui/icons-material/Cloud';
 import WorkIcon from '@mui/icons-material/Work';
 import './linkButtons.css';
 import ArduinoCloud from './ArduinoCloud';
+import ArduinoEducation from './ArduinoEducation';
+import LeftSidePhrases from './LeftSidePhrases';
+import SocialMediaList from './SocialMediaList';
 
 export default function LeftSide() {
     return (
@@ -44,12 +47,10 @@ export default function LeftSide() {
                 />
 
             </div>
-            <div>
-                <ArduinoCloud />
-            </div>
-            <div>
-                
-            </div>
+            <ArduinoCloud />
+            <ArduinoEducation />
+            <LeftSidePhrases />
+            <SocialMediaList/>
         </div>
     )
 }
